@@ -1,4 +1,4 @@
-#Basic Concept
+# Basic Concept
 The basic concept is that computing Big-decimal structure is slower than computing multiple integers.
 
 First, create a structure with two lists of integers.
