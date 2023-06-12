@@ -1,5 +1,4 @@
-Basic Concept
--------------
+#Basic Concept
 The basic concept is that computing Big-decimal structure is slower than computing multiple integers.
 
 First, create a structure with two lists of integers.
@@ -7,6 +6,8 @@ Second, the first list of int is the integer part and the other is the decimal p
 Third, when you initialize the structure with examples of strings, floats, and integers, it performs a modulo operation (mod 10^(9*n)) and stores the numbers according to some rules.
 
 # Example
+
+### Code:
 <pre><code>str s = "00000123123456789.987654321987000"
 a = HyperDecimal.init(s)
 print_info(a)
