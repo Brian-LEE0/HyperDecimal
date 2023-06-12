@@ -1,4 +1,5 @@
-# Basic Concept
+Basic Concept
+-------------
 The basic concept is that computing Big-decimal structure is slower than computing multiple integers.
 
 First, create a structure with two lists of integers.
@@ -7,14 +8,13 @@ Third, when you initialize the structure with examples of strings, floats, and i
 
 # Example
 
-str s = "00000123123456789.987654321987000"
-a = HyperDecimal.init(s)
-print_info(a)
-print("----------")
-print(a)
-output:
-int_list : [123456789,123]
-decimal_list : [987654321,987000000]
-----------
-123123456789.987654321987
+> str s = "00000123123456789.987654321987000"
+> a = HyperDecimal.init(s)
+> print_info(a)
+> print(a)
+
+### output:
+> int_list : [123456789,123]
+> decimal_list : [987654321,987000000]
+> 123123456789.987654321987
 
