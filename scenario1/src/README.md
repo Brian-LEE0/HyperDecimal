@@ -12,7 +12,7 @@ a = HyperDecimal.init(s)
 print_info(a)
 print("----------")
 print(a)
-**output:**
+output:
 int_list : [123456789,123]
 decimal_list : [987654321,987000000]
 ----------
